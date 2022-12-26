@@ -1,0 +1,34 @@
+.pablo_box {
+    margin-top: 500px;
+    position: relative;
+    .hung-belch {
+        top: 100px;
+        border-radius: 6px;
+        width: 1280px;
+        height: 577px;
+        background-color: black;
+        position: absolute;
+        h2 {
+            margin-top: 100px;
+            @include Ffont;
+            font-weight: 900;
+            font-size: 40px;
+            line-height: 48px;
+            text-align: center;
+            color: #FEFCF7;
+        }
+
+        p {
+            margin-left: 390px;
+            margin-right: 390px;
+            @include Bfont;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #FEFCF7;
+            mix-blend-mode: normal;
+            opacity: 0.8;
+        }
+    }
+}

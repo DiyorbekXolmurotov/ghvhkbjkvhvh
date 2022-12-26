@@ -1,0 +1,53 @@
+.flex_box {
+    top: 100px;
+    position: relative;
+        
+    .our_collection {
+        z-index: 0;
+        position: absolute;
+        left: 100px;
+        font-size: 150px;
+        margin-top: -25px;
+        color: darkgray;
+        background:linear-gradient(0%, #FEFCF7 100%(254, 252, 247, 0.0001)180deg, rgba);
+        @media (max-width:$phone) {
+            font-size: 40px;
+            background: linear-gradient(0%, #FEFCF7 100%(254, 252, 247, 0.0001)180deg, rgba);
+        }
+    }
+    
+    .four {
+        gap: 40px;
+        z-index: 1;
+        @include flex;
+        position: absolute;
+        @media (max-width:$phone) {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        .fool {
+            @media (max-width: $phone) {
+                display: flex;
+            }
+        h2 {
+            @include Ffont;
+            font-weight: 900;
+            font-size: 24px;
+            line-height: 32px;
+            text-align: center;
+            color: #333D4B;
+        }
+        p {
+            @include Bfont;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 26px;
+            text-align: center;
+            color: #333D4B;
+            line-height: 20px;
+        }
+        }
+    
+    }
+}
